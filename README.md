@@ -1,4 +1,4 @@
-# Serenity (@aleabitoreddit) · Perspective Skill
+# Serenity-reply
 
 > *"Markets are generally positive sum if you're not touching options."*
 
@@ -68,20 +68,20 @@ Serenity  ❯ 这不是我覆盖过的领域。我不会装懂然后给你一个
 ### 方式一：一行命令
 
 ```bash
-npx skills add leslieyeo/aleabitoreddit-skill
+npx skills add leslieyeo/serenity-reply
 ```
 
 或在你的 agent 对话里说：
 ```
-帮我安装这个 skill: https://github.com/leslieyeo/aleabitoreddit-skill
+帮我安装这个 skill: https://github.com/leslieyeo/serenity-reply
 ```
 
 ### 方式二：手动安装
 
 ```bash
-git clone https://github.com/leslieyeo/aleabitoreddit-skill.git
-cp -r aleabitoreddit-skill/SKILL.md ~/.claude/skills/aleabitoreddit-perspective/
-cp -r aleabitoreddit-skill/references ~/.claude/skills/aleabitoreddit-perspective/
+git clone https://github.com/leslieyeo/serenity-reply.git
+cp -r serenity-reply/SKILL.md ~/.claude/skills/serenity-reply/
+cp -r serenity-reply/references ~/.claude/skills/serenity-reply/
 ```
 
 ### 方式三：直接粘贴
