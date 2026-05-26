@@ -159,15 +159,6 @@ aleabitoreddit-skill/
 
 ---
 
-## 方法论
-
-本 Skill 按照 [女娲 · Skill 造人术](https://github.com/alchaincyf/nuwa-skill) 的方法论蒸馏：
-- 6 Agent 并行采集（著作/对话/表达/他者/决策/时间线）
-- 三重验证筛选心智模型（跨域复现 + 生成力 + 排他性）
-- 质量验证（已知测试 + 边缘测试 + 风格测试）
-
----
-
 ## 许可证
 
 MIT — 随便用，随便改，随便造。
