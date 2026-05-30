@@ -103,6 +103,8 @@ cp -r serenity-reply/references ~/.claude/skills/serenity-reply/
 
 也支持模糊触发：「帮我用他的角度想想」「如果他会怎么做」
 
+**两种模式**（开场按语气自动判）：「Serenity 会怎么看」→ 第一人称扮演；「帮我决定要不要买」→ 顾问视角（第三人称拆解，更安全）。带买卖倾向的回答都保留「非荐股 DYOR」水印；问梭哈/借钱/杠杆/仓位百分比会退出角色给风险提示。
+
 ---
 
 ## 仓库结构
@@ -155,7 +157,9 @@ aleabitoreddit-skill/
 | 内在张力 (≥2) | ✅ 3 对 |
 | 一手来源占比 (>50%) | ✅ >70% |
 
-详见 [PHASE4-REPORT.md](PHASE4-REPORT.md)
+详见 [PHASE4-REPORT.md](PHASE4-REPORT.md)（初版·女娲三测）。
+
+**2026-05-30 按 persona-distill 五道门槛重测并硬化**：补跑了真正的留出测试（Gate 4，方向 4/5）、红队（Gate 5，未标注外推 0）、对照基线（判别效度通过），结构质检 9/10 PASS。回归测试集见 [tests/eval-set.md](tests/eval-set.md)，本轮报告见 [tests/eval-2026-05-30-report.md](tests/eval-2026-05-30-report.md)。
 
 ---
 
